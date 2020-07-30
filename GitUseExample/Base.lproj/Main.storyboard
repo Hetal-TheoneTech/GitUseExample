@@ -21,12 +21,28 @@
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="DeviceOS:" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="57U-Tw-f0s">
+                                <rect key="frame" x="34" y="47" width="80.5" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="DeviceVersion" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="8UD-Pg-FjD">
+                                <rect key="frame" x="34" y="84" width="108.5" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                         <constraints>
+                            <constraint firstItem="57U-Tw-f0s" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="34" id="AUc-8i-HKZ"/>
                             <constraint firstAttribute="trailing" secondItem="eRk-5B-JMq" secondAttribute="trailing" constant="10" id="KFk-zU-cwB"/>
+                            <constraint firstItem="8UD-Pg-FjD" firstAttribute="leading" secondItem="57U-Tw-f0s" secondAttribute="leading" id="ZTv-Q6-4aH"/>
                             <constraint firstItem="eRk-5B-JMq" firstAttribute="centerX" secondItem="6Tk-OE-BBY" secondAttribute="centerX" id="iFX-AS-r1c"/>
                             <constraint firstItem="eRk-5B-JMq" firstAttribute="centerY" secondItem="6Tk-OE-BBY" secondAttribute="centerY" id="j8A-bR-8kf"/>
+                            <constraint firstItem="8UD-Pg-FjD" firstAttribute="top" secondItem="57U-Tw-f0s" secondAttribute="bottom" constant="16" id="rZG-cX-K8w"/>
+                            <constraint firstItem="57U-Tw-f0s" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="47" id="riF-Mw-iK5"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
