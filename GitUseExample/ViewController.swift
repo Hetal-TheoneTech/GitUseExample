@@ -20,7 +20,6 @@ class ViewController: UIViewController {
 //MARK:  setFont
     func setFont()
     {
-        debugPrint(#function)
         self.lblDeviceOS.font = UIFont.systemFont(ofSize: UIFont.systemFontSize)
         self.lblDeviceModel.font = UIFont.systemFont(ofSize: UIFont.systemFontSize)
     }
