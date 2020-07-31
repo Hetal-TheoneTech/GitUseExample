@@ -77,6 +77,10 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
             }
         }
     }
-
+    //MARK: Get UserDefaults
+    func getUserDefaultsData ()
+    {
+        
+    }
 }
 
