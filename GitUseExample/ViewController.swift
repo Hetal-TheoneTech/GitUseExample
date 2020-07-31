@@ -16,13 +16,18 @@ class ViewController: UIViewController {
         super.viewDidLoad()
         self.setFont()
     }
-
-//MARK:  setFont
+    
+    //MARK:  setFont
     func setFont()
     {
         debugPrint(#function)
         self.lblDeviceOS.font = UIFont.systemFont(ofSize: UIFont.systemFontSize)
         self.lblDeviceModel.font = UIFont.systemFont(ofSize: UIFont.systemFontSize)
+    }
+    //MARK: setColot
+    func setColor()
+    {
+        
     }
 }
 
