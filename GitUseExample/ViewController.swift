@@ -29,5 +29,10 @@ class ViewController: UIViewController {
     {
         
     }
+    //MARK: setImage
+    func setImage()
+    {
+        
+    }
 }
 
